@@ -1,0 +1,43 @@
+html,
+body,
+.view {
+	height: 100%;
+}
+
+.carousel {
+	height: 50px;
+} 
+
+.carousel .carousel-inner {
+	height: 100%;
+
+}
+
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active {
+	height: 100%;
+}
+
+@media (max-width: 776px) {
+	.carousel {
+		height: 100%;
+	}
+}
+
+.page-footer {
+	background-color: #000000;
+}
+
+.center {
+	display: block;
+    margin: 0 auto;
+}
+
+#men:hover {
+	font-size: 18px;
+	color: #FFBB33;
+}
+
+#meneger {
+	background-color: #000000;
+}

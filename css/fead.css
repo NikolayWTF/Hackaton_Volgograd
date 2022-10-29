@@ -1,0 +1,16 @@
+html,
+body,
+.view{
+	height: 100%;
+}
+
+
+.page-footer {
+	background-color: #000000;
+}
+
+#men:hover {
+	font-size: 18px;
+	color: #FFBB33;
+}
+

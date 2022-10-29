@@ -1,0 +1,90 @@
+body {background-color: #EDEEF0;}
+.welcome-grid img{
+width:100%;
+}
+.welcome-grid{
+padding:0;
+}
+.info h4 {
+margin-bottom:20px;
+font-size: 24px;
+color: #37B7E5;
+padding-top: 70px;
+}
+.info p {
+line-height:1.8em;
+font-size:14px;
+color:#464646;
+}
+@media (max-width: 1080px){
+.welcome-grids{
+ padding: 65px 0;
+}
+}
+ @media (max-width: 991px){
+ .welcome-grid{
+ float: left;
+ width: 25%;
+ padding: 0 6px;
+ }
+ .info h4 {
+ margin-bottom: 8px;
+ font-size: 20px;
+ padding-top: 53px;
+ }
+ }
+ @media (max-width: 640px){
+ .welcome-grid {
+ float: left;
+ width: 33.3%;
+ padding: 0 7px;
+ }
+ .welcome-grid:nth-child(5) {
+ margin-top: 30px;
+ }
+ .welcome-grid:nth-child(5) {
+ margin-top: 30px;
+ width: 100%;
+ }
+ .welcome-grid:nth-child(5) .ih-item.circle {
+ width: 33.3% !important;
+ }
+ }
+ @media (max-width: 480px){
+ .welcome-grid {
+ float: left;
+ width: 50%;
+ }
+ .welcome-grid:nth-child(5) {
+ width: 50%;
+ }
+ .welcome-grid:nth-child(5) .ih-item.circle {
+ width: 100% !important;
+ }
+ .welcome-grid:nth-child(5),.welcome-grid:nth-child(4) {
+ margin-top: 30px;
+ }
+ }
+ @media (max-width: 320px){
+ .info h4 {
+ padding-top: 29px;
+ }
+ }
+
+ .page-footer {
+	background-color: #000000;
+}
+
+.view{
+	height: 100%;
+}
+
+#men {
+	font-size: 16px;
+	margin-right: 8px
+}
+
+#men:hover {
+	font-size: 18px;
+	color: #FFBB33;
+}
